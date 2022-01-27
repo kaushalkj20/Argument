@@ -22,14 +22,18 @@ body{
     font: bold;
 
 }
+#button{
+    display: flex;
+    justify-content: center;
+}
+
 .btn{
     color:white;
     background-color: black;
-    margin-top: 2px;
-    margin-left: 685px;
+     margin: 1px 1px 1px;
     padding: 5px 5px;
     font-size: 15px;
-    border: 2px solid grey;
+    /* border: 2px solid red; */
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Baloo Bhaina 2', cursive;
@@ -52,15 +56,15 @@ body{
     text-align: center;
     background-color:black;
     border-radius: 5px;
-    padding: 2px 2px;
+    padding: 3px 3px 3px;
     color: white;
     font-size: 15px;
     width: 9.5%;
     font-family: 'Baloo Bhaina 2', cursive;
 }
-@media only screen and (max-width: 1140px){
+/* @media only screen and (max-width: 1140px){
   .btn{
     margin-left: 400px;
-  }
-}
+  } 
+  } */
 
